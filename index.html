@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Imperia - import sites</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="https://fonts.cdnfonts.com/css/world" rel="stylesheet">
+                
+</head>
+<body>
+
+	<nav>
+		<ul>
+			<li class="logo">
+				<a href="#">IMPERIA</a>
+			</li>
+			<li>
+				<a href="#">Главная страница</a>
+			</li>
+			<li>
+				<a href="#about">О нас</a>
+			</li>
+			<li>
+				<a href="">Услуги</a>
+			</li>
+			<li>
+				<a href="">Продукты</a>
+			</li>
+			<li>
+				<a href="">Наша команда</a>
+			</li>
+			<li>
+				<a href="">Отзывы</a>
+			</li>
+			<li class="contact">
+				<a href="">Оставить заявку</a>
+			</li>
+		</ul>
+	</nav>
+
+	<!-- Hero Section Goes Here -->
+	<section id="hero">
+		<div class="container">
+			<div class="parent">
+				<div class="child">
+					<p class="overtitle">IMPERIA</p>
+					<h1>Надежный партнер в импорте халяльных продуктов питания!</h1>
+					<p>Мы уже более 20 лет успешно занимаемся импортом качественных халяльных продуктов. Наш опыт и надежные партнеры в странах, таких как Иран, Турция, Россия и многие другие, позволяют нам предоставлять вам лучшие халяльные товары.</p>
+					<a href="">Посмотреть видео</a>
+					<a href="">Заказать звонок</a>
+				</div>
+				<div class="child d-flex bg-image">
+					<!-- <img src="" width="50%"> -->
+				</div>
+			</div>
+			<a href="#about" class="next"></a>
+		</div>	
+	</section>
+	<!-- Hero Section Ends Here -->
+
+	<!-- About Section Goes Here -->
+	<section id="about">
+		<div class="container">
+			<h1 class="title" align="center">О нас</h1>
+			<div class="parent">
+				<div class="child" data-aos="fade-up" data-aos-duration="300">
+					<img src="assets/img/confident-deliveryman-packages.png" width="100%">
+				</div>
+				<div class="child" data-aos="fade-up" data-aos-duration="300">
+					<h1>История нашей компании</h1>
+					<p>Imperia была основана более двадцати лет назад с одной целью - предоставить качественную халяльную продукцию питания на мировом рынке. С тех пор мы уверенно развиваемся, сотрудничая с проверенными производителями и поддерживая самые высокие стандарты качества.</p>
+					<a href="">Узнать поближе</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About Section Ends Here -->
+
+	<!-- Services Section Goes Here -->
+	<section id="services">
+		<div class="container">
+			<h1 class="title" align="center">Услуги</h1>
+			<h2 align="center">Наши халяльные импортные услуги</h2>
+			<p align="center" class="p_title">Мы предоставляем широкий спектр услуг по импорту халяльных продуктов, включая</p>
+			<div class="parent">
+				<div class="child" data-aos="fade-up" data-aos-duration="300">
+					<i class='bx bxs-drink'></i>
+					<h3>Импорт напитков</h3>
+					<p>Мы импортируем разнообразные халяльные напитки, гарантируя вам и вашим клиентам великолепный вкус и качество.</p>
+				</div>
+				<div class="child" data-aos="fade-up" data-aos-duration="300">
+					<i class='bx bxs-drink'></i>
+					<h3>Импорт мяса</h3>
+					<p>Наш выбор включает куриное и безональное мясо, прошедшие строгий контроль качества и сертификацию.</p>
+				</div>
+				<div class="child" data-aos="fade-up" data-aos-duration="300">
+					<i class='bx bxs-drink'></i>
+					<h3>Импорт масла и сахара</h3>
+					<p>Наши продукты питания, такие как масло и сахар, всегда высшего качества и соответствуют стандартам халяль.</p>
+				</div>
+				<div class="child" data-aos="fade-up" data-aos-duration="300">
+					<i class='bx bxs-drink'></i>
+					<h3>Импорт консервов</h3>
+					<p>Мы предлагаем широкий ассортимент консервированных товаров, включая тушенку и многое другое.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Services Section Ends Here -->
+
+	<!-- Product Section Goes Here -->
+	<section id="products">
+		<div class="container">
+			<h1 class="title" align="center">Продукты</h1>
+			<h2 align="center">Наш ассортимент продукции</h2>
+			<p align="center" class="p_title">Imperia предлагает богатый выбор халяльных продуктов, подходящих для различных кулинарных потребностей. <br> Наши товары поставляются из разных стран и включают в себя</p>
+			<div class="tab">
+			  <button class="tablinks" onclick="openProduct(event, 'beverage')" id="defaultOpen">Напитки</button>
+			  <button class="tablinks" onclick="openProduct(event, 'meat')">Мясо</button>
+			  <button class="tablinks" onclick="openProduct(event, 'oil')">Масло и сахар</button>
+			  <button class="tablinks" onclick="openProduct(event, 'fish')">Консервы и тушенка</button>
+			</div>
+
+			<div id="beverage" class="tabcontent">
+			  <h3>Напитки</h3>
+			  <div class="parent">
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7875.png);"></div>
+					<p>San Slavia - Клубника Банан.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+			  </div>
+			</div>
+
+			<div id="meat" class="tabcontent">
+			  <h3>Мясо</h3>
+			  <div class="parent">
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7875.png);"></div>
+					<p>San Slavia - Клубника Банан.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+			  </div>
+			</div>
+
+			<div id="oil" class="tabcontent">
+			  <h3>Масло и сахар</h3>
+			  <div class="parent">
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7875.png);"></div>
+					<p>San Slavia - Клубника Банан.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+			  </div>
+			</div>
+
+			<div id="fish" class="tabcontent">
+			  <h3>Консервы и тушенка</h3>
+			  <div class="parent">
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7875.png);"></div>
+					<p>San Slavia - Клубника Банан.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+				<div class="child">
+					<div class="img_wrapper" style="background-image: url(assets/img/IMG_7867.png);"></div>
+					<p>San Slavia - Мохито.</p>
+				</div>
+			  </div>
+			</div>
+
+			<script>
+				function openProduct(evt, cityName) {
+				  var i, tabcontent, tablinks;
+				  tabcontent = document.getElementsByClassName("tabcontent");
+				  for (i = 0; i < tabcontent.length; i++) {
+				    tabcontent[i].style.display = "none";
+				  }
+				  tablinks = document.getElementsByClassName("tablinks");
+				  for (i = 0; i < tablinks.length; i++) {
+				    tablinks[i].className = tablinks[i].className.replace(" active", "");
+				  }
+				  document.getElementById(cityName).style.display = "block";
+				  evt.currentTarget.className += " active";
+				}
+
+				// Get the element with id="defaultOpen" and click on it
+				document.getElementById("defaultOpen").click();
+			</script>
+		</div>
+	</section>
+
+	<script type="text/javascript">
+		window.onscroll = function() {
+			if (document.documentElement.scrollTop > 150 || document.body.scrollTop > 150) {
+				document.querySelector('nav').style.backgroundColor = '#f0eded';
+				document.querySelector('nav').style.padding = '12px 20px';
+			} else {
+				document.querySelector('nav').style.backgroundColor = 'transparent';
+				document.querySelector('nav').style.padding = '0';
+			}
+		}
+	</script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+
+</body>
+</html>
